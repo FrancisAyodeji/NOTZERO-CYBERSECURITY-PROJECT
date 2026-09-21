@@ -1,0 +1,236 @@
+1. Domains in the Place of Residence
+
+For this assessment, the residence is divided into the following security domains:
+
+a) Perimeter/Outdoor Domain – compound, fence, gate, driveway, yard.
+b) Building/Structural Domain – doors, windows, walls, roof, ceilings.
+c) Electrical/Utility Domain – electricity supply, wiring, sockets, generator/inverter,    	gas/water systems.
+d) Information Technology Domain – Wi-Fi router, phones, computers, CCTV and other connected devices.
+e) Human/Occupant Domain – residents, visitors, domestic workers and other people with access.
+f) Fire and Environmental Domain – cooking area, fire sources, drainage, weather exposure 	and emergency conditions.
+g) Valuables/Asset Domain – money, documents, electronics, vehicles, appliances and other 	valuable property.
+
+
+2. Possible Threats to the Residence
+
+Possible threats include:
+
+Human threats
+Burglary
+Theft
+Robbery
+Vandalism
+Trespassing
+Unauthorized access
+Social engineering/scams
+Insider misuse
+Physical assault
+Environmental threats
+Heavy rainfall
+Flooding
+Strong winds/storms
+Lightning
+Extreme heat
+Poor drainage
+Pest infestation
+Technical/accidental threats
+Electrical short circuit
+Power surge
+Equipment failure
+Internet/network attack
+Malware
+Unauthorized access to Wi-Fi
+Data theft
+Fire and utility threats
+Kitchen/fire accidents
+Gas leakage
+Electrical fire
+Generator-related fire
+Water leakage
+Plumbing failure
+
+
+3 & 4. Vulnerabilities Categorized by Domain
+
+	Vulnerabilities can be classified as Administrative, Technical, or Physical.
+
+| Domain                 | Administrative Vulnerabilities                                       | Technical Vulnerabilities                                      | Physical Vulnerabilities                                              
+
+
+| **Perimeter/Entrance** | No visitor-control procedure; keys not properly managed              | Weak/inadequate alarm system; no security monitoring               | Weak locks; poorly secured windows; inadequate fencing                |
+| **Living Room**        | Visitors may not be properly supervised                              | Unsecured electronic devices; outdated device software             | Valuables visible from outside; inadequate fire protection            |
+| **Bedrooms**           | Sensitive information not properly managed                           | Weak passwords; devices without adequate security                  | Unlocked doors; valuables/documents easily accessible                 |
+| **Kitchen**            | Poor safety procedures; inadequate appliance inspection              | Faulty electrical appliances; damaged cables                       | Gas cylinder/cooker improperly positioned; flammable materials nearby |
+| **Electrical/Utility** | Lack of regular maintenance; no emergency procedure                  | Overloaded circuits; defective wiring; inadequate surge protection | Exposed electrical components; combustible materials near equipment   |
+| **Water/Sanitation**   | Inadequate maintenance schedule                                      | Faulty pumps/sensors where applicable                              | Leaking pipes; blocked drains; slippery floors                        |
+| **Digital/Network**    | Passwords shared among household members; lack of security awareness | Weak Wi-Fi password; outdated router firmware; unsecured devices   | Router/devices located where unauthorized people can access them      |
+| **Storage**            | No inventory of important assets; poor document-management practices | No backup of important digital records                             | Storage area easily accessible; valuables not secured                 |
+
+
+5 & 6. Threats, Vulnerabilities and Risk Categorization
+
+Risk results when a threat can exploit a vulnerability and cause harm.
+
+For this project, the categories are:
+
+Critical: Could cause serious injury/death, major property loss, or significant compromise of important information.
+Major: Could cause substantial damage, financial loss, disruption, or security compromise.
+Minor: Limited impact that can generally be resolved without major consequences.
+
+
+| Domain             | Vulnerability                         | Threat Exploiting Vulnerability | Resulting Risk                        | Category     
+
+
+| Perimeter          | Weak door/window locks                | Burglary                        | Unauthorized entry and theft          | Critical
+| Perimeter          | Poor visitor control                  | Unauthorized person             | Physical security incident            | Major
+| Living Room        | No fire extinguisher                  | Fire                            | Property damage/injury                | Critical
+| Living Room        | Valuable items visible externally     | Theft                           | Loss of property                      | Major
+| Bedrooms           | Important documents poorly secured    | Theft                           | Loss/exposure of personal information | Major
+| Bedrooms           | Weak device passwords                 | Unauthorized access             | Loss of personal data                 | Major
+| Kitchen            | Gas/equipment not regularly inspected | Gas leak/fire                   | Fire, explosion or injury             | Critical
+| Kitchen            | Damaged electrical cables             | Electrical fault                | Fire or electric shock                | Critical
+| Electrical/Utility | Overloaded circuits                   | Short circuit                   | Electrical fire                       | Critical
+| Electrical/Utility | Poor equipment maintenance            | Equipment failure               | Fire, injury or property damage       | Major 
+| Water/Sanitation   | Leaking pipes                         | Water leakage                   | Property damage/mould                 | Major 
+| Water/Sanitation   | Slippery floors                       | Accidental fall                 | Injury                                | Major   
+| Digital/Network    | Weak Wi-Fi password                   | Unauthorized user               | Network compromise/data interception  | Major    
+| Digital/Network    | Outdated router/device software       | Cyberattack/malware             | Unauthorized access/data loss         | Major    
+| Digital/Network    | No backups                            | Malware/device failure          | Loss of important information         | Major    
+| Storage            | Valuables unsecured                   | Theft                           | Financial/property loss               | Major   
+| Storage            | No inventory                          | Theft/loss                      | Difficulty identifying missing assets | Minor   
+
+
+7. Mitigation Measures for Critical and Major Risks
+
+A. Critical Risks
+
+1. Burglary through weak doors/windows
+
+Mitigation:
+
+Install strong, good-quality locks.
+Repair or replace damaged doors and windows.
+Keep accessible windows secured when the residence is unattended.
+Use appropriate exterior lighting.
+Consider an alarm or other lawful security system.
+Avoid leaving keys in obvious or accessible locations.
+
+2. Residential fire
+
+Mitigation:
+
+Install appropriate smoke alarms.
+Keep a suitable fire extinguisher accessible.
+Maintain electrical appliances and wiring.
+Keep flammable materials away from heat sources.
+Establish a household emergency/evacuation plan.
+Ensure occupants know how to contact emergency services.
+
+3. Gas leakage/fire
+
+Mitigation:
+
+Have gas equipment inspected and maintained by qualified personnel.
+Keep gas cylinders and equipment in appropriate, well-ventilated locations.
+Check for signs of damaged hoses or connections.
+Keep ignition sources away from suspected leaks.
+Do not attempt unsafe repairs.
+Ensure occupants know the appropriate emergency procedure.
+
+4. Electrical fire or electric shock
+
+Mitigation:
+
+Have electrical installations inspected by a qualified electrician.
+Avoid overloading sockets and extension cords.
+Replace damaged cables and plugs.
+Use appropriate circuit protection.
+Keep electrical equipment away from water.
+Disconnect faulty equipment and have it professionally repaired
+
+
+B. Major Risks
+
+1. Unauthorized access to personal devices
+
+Mitigation:
+
+Use strong, unique passwords.
+Enable multi-factor authentication where available.
+Keep phones and computers updated.
+Lock devices when not in use.
+Avoid sharing passwords unnecessarily.
+
+2. Wi-Fi/network compromise
+
+Mitigation:
+
+Use a strong Wi-Fi password.
+Change default router administrator credentials.
+Keep router firmware updated.
+Use modern Wi-Fi security such as WPA2/WPA3 where supported.
+Create a separate guest network for visitors when available.
+
+3. Theft of valuables
+
+Mitigation:
+
+Keep valuables out of public view.
+Secure important items appropriately.
+Maintain an inventory of valuable property.
+Improve physical security around entrances and storage areas.
+
+4. Theft or exposure of personal documents
+
+Mitigation:
+
+Store important documents in a secure location.
+Avoid leaving sensitive documents in publicly accessible areas.
+Destroy sensitive documents securely when they are no longer needed.
+Keep digital copies of important documents securely backed up.
+
+5. Water leakage/property damage
+
+Mitigation:
+
+Inspect pipes and plumbing periodically.
+Repair leaks promptly.
+Keep drainage systems clear.
+Know where the main water shut-off point is located.
+Avoid ignoring dampness or unexplained water accumulation.
+
+6. Slips and falls
+
+Mitigation:
+
+Clean up spilled water immediately.
+Repair damaged flooring.
+Improve lighting in areas such as stairs and corridors.
+Keep walkways free of unnecessary objects.
+Use appropriate non-slip surfaces where needed.
+
+7. Loss of important digital information
+
+Mitigation:
+
+Regularly back up important files.
+Keep at least one backup separate from the primary device.
+Use reputable security software where appropriate.
+Keep operating systems and applications updated.
+
+
+
+| Risk                        | Domain                      | Severity     | Main Mitigation                                             
+
+| Burglary/unauthorized entry | Perimeter                   | Critical | Strong locks, lighting, alarm/security measures             
+| Residential fire            | Living room/whole residence | Critical | Smoke alarms, fire extinguisher, electrical/fire safety     
+| Gas leak/fire               | Kitchen                     | Critical | Equipment inspection and safe gas practices                 
+| Electrical fire/shock       | Utilities                   | Critical | Qualified inspection, circuit protection, avoid overloading 
+| Theft of valuables          | Bedrooms/Storage            | Major    | Secure storage, reduce visibility, inventory                
+| Personal-data compromise    | Bedrooms/Digital            | Major    | Strong passwords, MFA, device security                      
+| Wi-Fi compromise            | Digital/Network             | Major    | Strong Wi-Fi security, updates, guest network               
+| Water damage                | Water/Sanitation            | Major    | Plumbing maintenance and prompt leak repairs                
+| Slips/falls                 | Water/Sanitation            | Major    | Non-slip surfaces, lighting, housekeeping                   
+| Loss of digital data        | Digital/Network             | Major    | Regular backups                                             
+| Poor asset inventory        | Storage                     | Minor    | Maintain an inventory                                       
+
