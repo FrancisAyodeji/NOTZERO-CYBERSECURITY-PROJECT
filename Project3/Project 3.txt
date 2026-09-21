@@ -1,0 +1,111 @@
+ PROJECT 3: PACKET TRACER – USE PING AND TRACEROUTE TO TEST NETWORK CONNECTIVITY
+
+ Introduction
+
+This project was carried out using Cisco Packet Tracer to test and restore network connectivity. The network consisted of three routers, four switches, and four PCs. Both IPv4 and IPv6 connectivity were tested using the ping and traceroute commands.
+
+The main objective was to identify where communication was failing, correct the configuration problems, and confirm that the PCs could communicate successfully across the different networks.
+
+ Part 1: Testing and Restoring IPv4 Connectivity
+
+The first IPv4 connectivity test was performed from PC1 to PC3 using the following command:
+
+
+ping 10.10.1.18
+
+
+The initial test failed and returned a **Destination Host Unreachable** message. The routers were then checked to determine the source of the connectivity problem.
+
+R1 did not have a route to the PC3 network, so the following static route was added:
+
+
+ip route 10.10.1.16 255.255.255.240 10.10.1.5
+
+
+R2 also did not have a route to the PC3 network. The following static route was added:
+
+
+ip route 10.10.1.16 255.255.255.240 10.10.1.10
+
+
+R3 required a return route to the PC1 network. The following route was configured:
+
+
+ip route 10.10.1.96 255.255.255.224 10.10.1.9
+
+
+The IPv4 configuration on PC3 was also checked and configured as follows:
+
+* **IP Address:** 10.10.1.18
+Subnet Mask: 255.255.255.240
+Default Gateway: 10.10.1.17
+
+After these corrections were made, PC1 was able to communicate successfully with PC3.
+
+ Final IPv4 Ping Result
+
+The final ping test from PC1 to PC3 showed:
+
+Packets sent: 4
+Packets received: 4
+Packet loss: 0%
+Average time: 12 ms
+
+These results confirmed that IPv4 connectivity between PC1 and PC3 had been successfully restored.
+
+ IPv4 Traceroute
+
+The traceroute from PC1 to PC3 showed the following path:
+
+
+10.10.1.97 → 10.10.1.5 → 10.10.1.10 → 10.10.1.18
+
+
+The trace successfully reached the destination in four hops.
+
+Part 2: Testing and Restoring IPv6 Connectivity
+
+IPv6 connectivity was tested between PC2 and PC4.
+
+The main problems identified during the IPv6 configuration involved routing and default gateway settings. The required IPv6 routes were configured on the routers, and the correct link-local default gateways were configured on the PCs.
+
+PC2 used the following IPv6 address:
+
+
+2001:DB8:1:1::2
+
+
+PC4 used:
+
+
+2001:DB8:1:4::2
+
+
+After the configuration problems were corrected, PC2 was able to communicate successfully with PC4.
+
+Final IPv6 Ping Result
+
+The final IPv6 ping from PC2 to PC4 was successful:
+
+Packets sent: 4
+Packets received: 4
+Packet loss: 0%
+
+This confirmed that IPv6 connectivity between PC2 and PC4 had been successfully restored.
+
+ IPv6 Traceroute
+
+The IPv6 traceroute showed the following path:
+
+
+2001:DB8:1:1::1 → 2001:DB8:1:2::1 → 2001:DB8:1:3::2 → 2001:DB8:1:4::2
+
+The trace successfully reached the destination in four hops.
+
+ Conclusion
+
+This project provided practical experience in using ping and traceroute to test network connectivity and identify communication problems. It demonstrated how missing or incorrect routing information and default gateway configurations can prevent devices on different networks from communicating.
+
+After the necessary configuration corrections were made, both IPv4 and IPv6 connectivity were successfully restored. The final IPv4 ping recorded 0% packet loss, and the IPv6 ping was also successful with 0% packet loss. The IPv4 and IPv6 traceroute tests both successfully reached their respective destinations in four hops.
+
+Overall, the project improved my understanding of network troubleshooting, static routing, default gateways, and the use of diagnostic commands in Cisco Packet Tracer.
