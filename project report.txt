@@ -1,0 +1,105 @@
+🎤 PROJECT 1 — KALI LINUX RECONNAISSANCE AND SCANNING
+
+You can say:
+
+“My first project was an end-to-end reconnaissance and scanning exercise using Kali Linux.
+
+The main purpose of this project was to understand how a security analyst gathers information about a system and checks its network services.
+
+I used Kali Linux in a virtual machine, and the target provided for the exercise was scanme.nmap.org. The project specifically instructed us to scan only this authorized target.
+
+I started with basic network reconnaissance. I used commands such as ip a to check the IP address of my system, ip route to view the routing information, ping to test connectivity, nslookup to obtain DNS information, and whois to gather registration information.
+
+After the reconnaissance stage, I used Nmap. Nmap helped me identify open ports and the services running on those ports. I also performed service detection, operating-system detection and vulnerability scanning.
+
+Finally, I saved the scan results into a file so that they could be analyzed and included in the report.
+
+The major thing I learned from this project is how reconnaissance and network scanning can help a security analyst understand the security exposure of a system before further analysis is carried out.”
+
+If they ask: “What is reconnaissance?”
+
+Say:
+
+“Reconnaissance is the process of gathering information about a target before carrying out further security analysis.”
+
+If they ask: “What is Nmap?”
+
+Say:
+
+“Nmap is a network scanning tool used to discover hosts, open ports, services and other information about a networked system.”
+
+🎤 PROJECT 2 — THREAT AND VULNERABILITY ASSESSMENT
+
+You can say:
+
+“My second project was a threat and vulnerability assessment of an infrastructure.
+
+For this exercise, we used a place of residence as the infrastructure we were assessing.
+
+First, we identified different domains or areas within the residence. Then we considered possible threats that could affect the residence or the people living there.
+
+After identifying the threats, we looked for vulnerabilities. A vulnerability is basically a weakness that a threat could take advantage of.
+
+We categorized the vulnerabilities into three groups: administrative, technical and physical.
+
+We then looked at the risks associated with those vulnerabilities and classified the risks as Critical, Major or Minor.
+
+Finally, we identified mitigation measures for the Critical and Major risks. Mitigation means putting measures in place to reduce or control the risk.
+
+The main thing I learned from this project is that cybersecurity is not only about computers. Security also involves people, processes, physical environments and identifying risks before they cause problems.”
+
+If they ask: “What is the difference between a threat and a vulnerability?”
+
+Say:
+
+“A threat is something that can cause harm, while a vulnerability is a weakness that the threat can take advantage of.”
+
+Example you can give:
+
+“For example, unauthorized access can be a threat, while an unlocked door can be a vulnerability.”
+
+🎤 PROJECT 3 — CISCO PACKET TRACER
+
+You can say:
+
+“My third project was done using Cisco Packet Tracer. The purpose was to test and troubleshoot network connectivity using both IPv4 and IPv6.
+
+The scenario involved a network where some devices were unable to communicate correctly. My task was to identify where the problem was and restore connectivity.
+
+I used Ping to test whether devices could communicate with each other. I also used Traceroute to see the path that packets were taking through the network and help locate where the problem occurred.
+
+I then inspected the routers using commands such as show ip interface brief and show ip route. These commands helped me check the router interfaces and routing information.
+
+During the IPv4 troubleshooting, we identified that the R2 router had an incorrect IP address on its Serial 0/0/0 interface. The incorrect address was corrected to 10.10.1.5 with the appropriate subnet mask.
+
+After making the correction, we tested the connection again to verify that the devices could communicate.
+
+We also worked with IPv6 connectivity and used the appropriate IPv6 commands to investigate the network.
+
+The main thing I learned from this project is how to troubleshoot network connectivity by testing communication, tracing the path of packets and checking router configurations.”
+
+If they ask: “What is Ping?”
+
+Say:
+
+“Ping is a network command used to test whether one device can communicate with another device.”
+
+If they ask: “What is Traceroute?”
+
+Say:
+
+“Traceroute shows the path that network packets take from one device to another. It helps us identify where a connectivity problem may be occurring.”
+
+🎯 YOUR CONCLUSION
+
+After explaining the three projects, you can finish with:
+
+“In conclusion, these three projects gave me practical exposure to different areas of cybersecurity and networking. Project 1 focused on reconnaissance and network scanning, Project 2 focused on identifying threats, vulnerabilities and risks, while Project 3 focused on network connectivity and troubleshooting. Together, they helped me understand how security analysts gather information, identify security weaknesses and troubleshoot network problems.”
+
+One important presentation tip
+
+If your reviewer asks you something you don't remember exactly, don't try to bluff. You can say:
+
+“From the practical exercise, what I understood was…”
+
+That gives you room to explain what you actually did instead of getting stuck trying to remember a command word-for-word.
